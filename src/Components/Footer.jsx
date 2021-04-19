@@ -56,7 +56,7 @@ const Footer = () => {
                 <h5 className="faqText">when should lawns be aerated?<Icon.ChevronDown style={{color:"orange"}}/></h5>
                 <h5 className="faqText">how do i know if i have grubs<Icon.ChevronDown style={{color:"orange"}}/></h5>
                 <h5 className="faqText">how can i prevent lawn disease, such as fungus<Icon.ChevronDown style={{color:"orange"}}/></h5>
-                <h5 className="faqText">whyis my lawn not geting better after applying disease control?<Icon.ChevronDown style={{color:"orange"}}/></h5>
+                <h5 className="faqText">whyis my lawn not geting better <br/> after applying disease control?<Icon.ChevronDown style={{color:"orange"}}/></h5>
                 <h5 className="faqText">what is thatch<Icon.ChevronDown style={{color:"orange"}}/></h5>
             </div>
             <img className="footerImg" src={ground} alt=""/>
