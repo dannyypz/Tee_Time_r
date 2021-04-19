@@ -176,7 +176,6 @@ over:not(.active) {
 /************************About********************************/
 .aboutContainer{
   display: flex;
-  width: ;
   flex-direction: column;
   justify-content: center;
   align-items: center;
