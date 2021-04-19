@@ -8,11 +8,11 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 const Navbar = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
             <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="devpez"/></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <FontAwesomeIcon icon={faBars} style={{color:"white"}}/>
+            <FontAwesomeIcon icon={faBars} style={{color:"black"}}/>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
