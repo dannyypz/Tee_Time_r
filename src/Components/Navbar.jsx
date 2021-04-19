@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../Media/Images/tee time and ttlc logo with alpaca.png'
 import { Link} from 'react-scroll'
+import {Button} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -28,28 +29,36 @@ const Navbar = () => {
                     to="about"
                     activeClass="active"
                     spy={true} 
-                    smooth={true}>About</Link>
+                    smooth={true}>our services</Link>
                 </li>
                 <li className="nav-item">
                 <Link className="nav-link"
                     to="experience"
                     activeClass="active"
                     spy={true} 
-                    smooth={true}>experience</Link>
+                    smooth={true}>new 3 Step pere emergent</Link>
                 </li>
                 <li className="nav-item">
                 <Link className="nav-link"
                     to="work"
                     activeClass="active"
                     spy={true} 
-                    smooth={true}>work</Link>
+                    smooth={true}>Blog </Link>
                 </li>
                 <li className="nav-item">
                 <Link className="nav-link"
                     to="contact"
                     activeClass="active"
                     spy={true} 
-                    smooth={true}>contact</Link>
+                    smooth={true}>About us</Link>
+                </li>
+                <li className="nav-item">
+                <Button className="nav-link"
+                    style={{backgroundColor:"orange", color:"white", border:"none"}}
+                    to="contact"
+                    activeClass="active"
+                    spy={true} 
+                    smooth={true}>CONTACT US</Button>
                 </li>
             </ul>
             </div>
