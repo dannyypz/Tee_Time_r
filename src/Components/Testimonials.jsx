@@ -26,7 +26,7 @@ const Testimonials = () => {
                     </p>
                     </div>
                 
-                 <div>
+                 <div className='testIcons'>
                  <Icon.StarFill style={{color:"#fb8500",fontSize:"30px", margin:".2rem"}} />
                  <Icon.StarFill style={{color:"#fb8500",fontSize:"30px", margin:".2rem"}} />
                  <Icon.StarFill style={{color:"#fb8500",fontSize:"30px", margin:".2rem"}} />
@@ -34,12 +34,14 @@ const Testimonials = () => {
                  <Icon.StarFill style={{color:"#fb8500",fontSize:"30px", margin:".2rem"}} />
                  <br/>
                  
-                 </div>
                  
-                <><Button style={{marginBottom:'3rem', boxShadow: '0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15)'}}variant="success">READ OUR REVIEWS</Button></>
+                 
+                <><Button style={{ width:"10rem", boxShadow: '0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15)'}}variant="success">READ OUR REVIEWS</Button></>
+                </div>
                 </Col>
+                
                  </Row>
-
+                
                  <div >
                      <img className="lawnProof" src={BandA} alt=""/>
                  </div>

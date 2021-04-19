@@ -179,7 +179,7 @@ over:not(.active) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
+  margin-bottom: 5rem;
 }
 .aboutSec{
   margin-top: 3rem;
@@ -191,11 +191,11 @@ over:not(.active) {
   box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
 }
 #aboutTtl{
-  color:rgb(6, 189, 6);
+  color:green;
   font-family: 'Oswald', sans-serif;
   border-bottom:4px solid orange;
   font-size: 50px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: 1rem;
   margin-top: .2rem;
   display: flex;
@@ -220,11 +220,12 @@ img, #aboutImg{
 }
 
 #aboutTtl1{
-  color:rgb(6, 189, 6);
+  color:green;
   font-family: 'Oswald', sans-serif;
   border-bottom:4px solid orange;
   font-size: 50px;
   text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: 1rem;
   margin-top: .2rem;
   display: flex;
@@ -242,15 +243,15 @@ img, #aboutImg{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
   box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
 }
 #aboutTtl2{
-  color:rgb(6, 189, 6);
+  color:green;
   font-family: 'Oswald', sans-serif;
   border-bottom:4px solid orange;
   font-size: 50px;
-  text-transform: capitalize;
-  margin-bottom: 1rem;
+  text-transform: uppercase;
   margin-top: .2rem;
   display: flex;
   
@@ -260,6 +261,7 @@ img, #aboutImg{
   margin-right: .5rem;
   width: 35rem;
   margin-bottom: 2rem;
+  text-transform: none;
 }
 @media only screen and (max-width:420px){
   .aboutSec{
@@ -270,11 +272,11 @@ img, #aboutImg{
     align-items: center;
   }
   h4,#aboutTtl{
-    color:rgb(6, 189, 6);
+    color:green;
     font-family: 'Oswald', sans-serif;
     border-bottom:4px solid orange;
     font-size: 50px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-bottom: 1rem;
     margin-top: .2rem;
     display: flex;
@@ -299,19 +301,19 @@ img, #aboutImg{
     align-items: center;
   }
   #aboutTtl1{
-    color:white;
+    color:green;
    
     font-family: 'Oswald', sans-serif;
     border-bottom:4px solid orange;
     font-size: 50px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-bottom: 1rem;
     margin-top: .2rem;
     display: flex;
     
   }
   .aboutText1{
-    background-color:rgb(6, 189, 6);
+    
     margin-left: .5rem;
     margin-right: .5rem;
     width: 80%;
@@ -329,17 +331,17 @@ img, #aboutImg{
     align-items: center;
   }
   #aboutTtl2{
-    color:rgb(6, 189, 6);
+    color:green;
     font-family: 'Oswald', sans-serif;
     border-bottom:4px solid orange;
     font-size: 50px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-bottom: 1rem;
     margin-top: .2rem;
     display: flex;
     
   }
-  p,.aboutText2{
+ .aboutText2{
     margin-left: .5rem;
     margin-right: .5rem;
     width: 80%;
@@ -365,7 +367,7 @@ img, #aboutImg{
   
 }
 .servicesBorder{
-  color: rgb(6, 189, 6);
+  color: green;
   border-bottom:3px solid orange;
   margin-bottom: .5rem;
   font-size: 3vw;
@@ -553,6 +555,7 @@ align-items: center;
 justify-content: center;
 width:100%;
 margin-top: 5rem;
+margin-bottom: 5rem;
 
 }
 .clientTest{
@@ -565,7 +568,7 @@ margin-top: 5rem;
   font-family: 'Oswald', sans-serif;
 }
 .testBorder{
-  color: rgb(6, 189, 6);
+  color:green;
   border-bottom:3px solid orange;
   text-transform: uppercase;
   display: flex;
@@ -581,11 +584,19 @@ margin-top: 5rem;
   
 }
 .testUnder{
-
+  color: green;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vh;
+  width: 40rem;
 }
 .testIcons{
 margin-bottom: 1rem;
-box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .lawnProof{
   width: 100%;
@@ -604,7 +615,7 @@ box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !
     
     }
     .testBorder{
-      color: rgb(6, 189, 6);
+      color: green;
       border-bottom:3px solid orange;
       text-transform: uppercase;
       display: flex;
@@ -620,6 +631,15 @@ box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !
       justify-content: center;
       width: 11rem;
       font-family: 'Oswald', sans-serif;
+    }
+    .testUnder{
+      color: green;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2vh;
+      width: 10rem;
     }
     .testText{
       width: 10rem;
@@ -655,10 +675,11 @@ box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !
   
 }
 .commitBorder{
-  color: rgb(6, 189, 6);
+  color: green;
   border-bottom:3px solid orange;
   margin-bottom: .5rem;
   font-size: 3vw;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   display: flex;
   align-items:flex-start;
@@ -903,7 +924,7 @@ box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !
   justify-content: center;
 }
 .blog{
-  color: rgb(6, 189, 6);
+  color:green;
   border-bottom:3px solid orange;
   width: 35rem;
   font-size: 6vh;
@@ -959,10 +980,10 @@ box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !
   justify-content: center;
 }
 .faqText{
-  color: #4CAF50;
+  color: green;
 }
 .faqTtl{
-  color: #4CAF50;
+  color: green;
   border-bottom: 3px solid orange;
   width: 30rem;
   display: flex;
@@ -985,7 +1006,7 @@ box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !
     font-family: 'Oswald', sans-serif;
   }
   .blog{
-    color: rgb(6, 189, 6);
+    color: green;
     border-bottom:3px solid orange;
     width: 20rem;
     font-size: 5vh;
@@ -1010,14 +1031,14 @@ box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !
     justify-content: center;
   }
   .faqTtl{
-    color: #4CAF50;
+    color: green;
     border-bottom: 3px solid orange;
     width: 15rem;
     display: flex;
     justify-content: center;
   }
   .faqText{
-    color: #4CAF50;
+    color:green;
     font-size: .8rem;
   }
   .footerLogo{

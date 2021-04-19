@@ -18,7 +18,7 @@ const About = () => {
     </div>
     <div className="aboutSec1">
         <div className="aboutText1">
-            <h4 id="aboutTtl1">what we do!</h4>
+            <h4 id="aboutTtl1">Our philosophy</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, laudantium. Blanditiis nam iste doloribus fuga ipsum aliquam incidunt quasi atque illum cum, ab deserunt aspernatur, nobis sed quo ducimus quas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem vel assumenda vitae saepe impedit iusto, aut obcaecati enim aliquam voluptates modi explicabo corrupti voluptate debitis deleniti aperiam illum dignissimos commodi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas corporis magnam sit omnis neque fuga, est nihi.</p>
         </div>
         <div className="aboutImg" >
@@ -30,7 +30,7 @@ const About = () => {
             <img src={fertilizer} alt="law"/>
         </div>
         <div className="aboutText2">
-            <h4 id="aboutTtl2">what we do!</h4>
+            <h4 id="aboutTtl2">where it all begins</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, laudantium. Blanditiis nam iste doloribus fuga ipsum aliquam incidunt quasi atque illum cum, ab deserunt aspernatur, nobis sed quo ducimus quas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem vel assumenda vitae saepe impedit iusto, aut obcaecati enim aliquam voluptates modi explicabo corrupti voluptate debitis deleniti aperiam illum dignissimos commodi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas corporis magnam sit omnis neque fuga, est nihi.</p>
         </div>
     </div>
