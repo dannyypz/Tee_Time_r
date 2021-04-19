@@ -9,7 +9,7 @@ const Footer = () => {
         <>
         <div>
             <div class="blogTtl">
-                <h3 className="blog">Blog</h3>
+                <h3 className="blog">BLOG</h3>
             </div>
             <div div className="blogContainer">
             <div className="blogCard">
