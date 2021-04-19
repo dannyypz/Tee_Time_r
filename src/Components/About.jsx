@@ -6,7 +6,7 @@ import fertilizer from '../Media/Images/fertilizer.png'
 
 const About = () => {
     return ( 
-        <>
+        <div>
     <div className="aboutSec">
             <div id="aboutImg" >
             <img src={lawnMan} alt="law"/>
@@ -21,7 +21,7 @@ const About = () => {
             <h4 id="aboutTtl1">what we do!</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, laudantium. Blanditiis nam iste doloribus fuga ipsum aliquam incidunt quasi atque illum cum, ab deserunt aspernatur, nobis sed quo ducimus quas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem vel assumenda vitae saepe impedit iusto, aut obcaecati enim aliquam voluptates modi explicabo corrupti voluptate debitis deleniti aperiam illum dignissimos commodi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas corporis magnam sit omnis neque fuga, est nihi.</p>
         </div>
-        <div id="aboutImg" >
+        <div className="aboutImg" >
             <img src={child} alt="law"/>
         </div>
     </div>
@@ -34,7 +34,7 @@ const About = () => {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, laudantium. Blanditiis nam iste doloribus fuga ipsum aliquam incidunt quasi atque illum cum, ab deserunt aspernatur, nobis sed quo ducimus quas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem vel assumenda vitae saepe impedit iusto, aut obcaecati enim aliquam voluptates modi explicabo corrupti voluptate debitis deleniti aperiam illum dignissimos commodi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas corporis magnam sit omnis neque fuga, est nihi.</p>
         </div>
     </div>
-   </>
+   </div>
     )
 };
 
