@@ -16,7 +16,7 @@ const Footer = () => {
                     <img className="blogImg" src={mower} alt="Avatar" />
                     <div className="container">
                     <h4 className="blogTitle"><b>What are moles?</b></h4>
-                    <p className="blogText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, voluptatem, quaerat sequi possimus enim vero quod numquam minima voluptate necessitatibus recusandae illo tempore nulla placeat obcaecati quibusdam rerum animi alias.</p>
+                    <p className="blogText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, voluptatem, quaerat sequi possimus enim vero quod numquam minima voluptate necessitatibus recusandae illo tempore .</p>
                 <div className="socialBlog">
                 <button className="blogButton">Schedule Service</button>
                 <Icon.ChatRightQuoteFill style={{color:"green"}}/>
@@ -28,7 +28,7 @@ const Footer = () => {
                     <img className="blogImg" src={mower} alt="Avatar" />
                     <div className="container">
                     <h4 className="blogTitle"><b>Why use plainfield fertilizer?</b></h4>
-                <p className="blogText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo similique sint quis ipsam hic blanditiis nulla saepe tempore? Autem unde possimus asperiores beatae odio nam voluptas ea debitis officiis iure?</p>
+                <p className="blogText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo similique sint quis ipsam hic blanditiis nulla saepe tempore? Autem unde possimus </p>
                 <div>
                 <button className="blogButton">Schedule Service</button>
                 <Icon.ChatRightQuoteFill style={{color:"green"}}/>
@@ -40,7 +40,7 @@ const Footer = () => {
                     <img className="blogImg" src={mower} alt="Avatar" />
                     <div className="container">
                     <h4 className="blogTitle"><b>What is Aeration?</b></h4>
-                    <p className="blogText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto veritatis quis nam vero culpa officiis fugiat iste illum repellat similique cumque ratione inventore, qui accusantium in voluptas, reiciendis commodi minus.</p>
+                    <p className="blogText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto veritatis quis nam vero culpa officiis fugiat iste illum repellat similique</p>
                 <div>
                 <button className="blogButton">Schedule Service</button>
                 <Icon.ChatRightQuoteFill style={{color:"green"}}/>
