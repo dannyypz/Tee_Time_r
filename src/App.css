@@ -439,13 +439,11 @@ img, #aboutImg{
 /* Add some padding inside the card container */
 .container {
   width: 50rem;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2px 16px;
-  margin-bottom:2rem ;
+  margin-bottom:3rem ;
 }
 .serviceButton{
   border: none;
