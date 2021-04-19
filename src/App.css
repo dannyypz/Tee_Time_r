@@ -12,8 +12,8 @@ nav{
   z-index: 2;
 }
 .logo{
-  width:4.375rem;
-  height: 4.375rem;
+  width:5.375rem;
+  height: 3.5rem;
   border-radius: 5px;
 }
 
@@ -40,10 +40,10 @@ nav ul li{
   height: 4.50rem !important;
 }
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
-  border-top: 0.1875rem solid var(--primary-bluegray);
+  border-top: 0.1875rem solid green;
 }
 .navbar-nav > li > a:hover{
-  border-top: 0.1875rem solid var(--primary-bluegray);
+  border-top: 0.1875rem solid green;
 }
 
 /************************HEADER/VIDEO********************************/
@@ -116,6 +116,7 @@ over:not(.active) {
   font-size: 1.2rem;
   color: white;
   border: none;
+  box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
 }
 #buttonVid:hover{
   background-color: #80a18196;
@@ -173,13 +174,22 @@ over:not(.active) {
 }
 
 /************************About********************************/
+.aboutContainer{
+  display: flex;
+  width: ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
+}
 .aboutSec{
   margin-top: 3rem;
-  width: 100%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
 }
 #aboutTtl{
   color:rgb(6, 189, 6);
@@ -202,17 +212,16 @@ img, #aboutImg{
 }
 .aboutSec1{
   margin-top: 3rem;
-  width: 100%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: black;
-  font-family: 'Oswald', sans-serif;
+  box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
 }
 
 #aboutTtl1{
-  color:white;
+  color:rgb(6, 189, 6);
   font-family: 'Oswald', sans-serif;
   border-bottom:4px solid orange;
   font-size: 50px;
@@ -223,18 +232,18 @@ img, #aboutImg{
   
 }
 .aboutText1{
-  background-color:rgb(6, 189, 6);
   margin-left: .5rem;
   margin-right: .5rem;
   width: 35rem;
 }
 .aboutSec2{
   margin-top: 3rem;
-  width: 100%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
 }
 #aboutTtl2{
   color:rgb(6, 189, 6);
@@ -251,7 +260,7 @@ img, #aboutImg{
   margin-left: .5rem;
   margin-right: .5rem;
   width: 35rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 @media only screen and (max-width:420px){
   .aboutSec{
@@ -379,21 +388,6 @@ img, #aboutImg{
   align-items: flex-start;
 
 }
-.serviceCards{
-
-
-  background: rgba(0,0,0,0);
-  margin:5rem;
-  border-left: 8rem;
-  position: absolute;
-  top: 15; right: 5rem; bottom: 5rem; left: 5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
-
-}
 .serviceButton{
   background-color:orange !important;
   border:none !important;
@@ -414,9 +408,61 @@ img, #aboutImg{
   margin-bottom: 5rem;
   
 }
-.card{
-  width: 15rem
+.cardContainer{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
+.card {
+  /* Add shadows to create the "card" effect */
+  width: 20rem;
+  margin-top: 10rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+}
+.serviceTitle{
+  color: rgb(6, 189, 6);
+  border-bottom:3px solid orange;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  width: 50rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 16px;
+  margin-bottom:2rem ;
+}
+.serviceButton{
+  border: none;
+  font-family: 'Oswald', sans-serif;
+
+}
+.serviceButton:hover{
+  background-color: #80a18196;
+  color: black;
+  border: none;
+}
+.serviceImg{
+  width: 15rem;
+  margin-top: 2rem;
+}
+
 @media(max-width:380px){
   .servicesContainer{
     position: relative;
@@ -448,23 +494,59 @@ img, #aboutImg{
     align-items:center;
     justify-content: center;
   }
-  .serviceCards{
-    background: rgba(0,0,0,0);
-    margin:5rem;
-    display: flex;
-    flex-direction: column;
-    width: 2rem;
-  
-  }
   .servicesText{
-    margin-top: .5rem;
-    width: 20em;
+    margin-top: 0;
+    width: 18rem;
     color:black;
     font-family: 'Oswald', sans-serif;
     font-size: .7rem;
     display: flex;
     align-items: flex-start;
   
+  }
+  .serviceImg{
+    width: 3.5rem;
+  }
+  .serviceButton{
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    width: 2rem;
+    font-size: .5rem;
+  
+  }
+  .serviceButton:hover{
+    background-color: #80a18196;
+    color: black;
+    border: none;
+  }
+  .serviceImg{
+    width: 5rem;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    width: 10rem;
+    margin-top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  .serviceTitle{
+    font-size: .8rem;
+  }
+  .cardText{
+    font-size: .5rem;
+  }
+  .container {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
   }
 }  
 /**********************************TESTIMONIALS********************************* */
@@ -474,13 +556,14 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 width:100%;
+margin-top: 5rem;
 
 }
 .clientTest{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 10rem;
   width: 50rem;
   font-family: 'Oswald', sans-serif;
@@ -493,23 +576,26 @@ width:100%;
   align-items: center;
   justify-content: center;
   font-size: 5vh;
-  width: 45rem;
+  width: 40rem;
 }
 .testText{
-  font-size: 3vh;
-  top: 0; right: 0; bottom: 0; left: 3rem;
+  width: 45rem;
+  font-size: 5vh;
+  top: 10rem; right: 0; bottom: 0; left: 3rem;
   
 }
 .testUnder{
-  font-size: 3vh;
-  color: rgb(6, 189, 6);
 
 }
 .testIcons{
 margin-bottom: 1rem;
+box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
 }
 .lawnProof{
   width: 100%;
+}
+.alpaca{
+  margin-right: 5rem;
 }
 @media(max-width:380px){
   .testContainer{
@@ -518,15 +604,8 @@ margin-bottom: 1rem;
     align-items: center;
     justify-content: center;
     width:100%;
+    margin-top: 10REM;
     
-    }
-    .clientTest{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 50rem;
-      font-family: 'Oswald', sans-serif;
     }
     .testBorder{
       color: rgb(6, 189, 6);
@@ -536,15 +615,31 @@ margin-bottom: 1rem;
       align-items: center;
       justify-content: center;
       font-size: 5vh;
-      width: 20rem;
+      width: 12rem;
     }
     .clientTest{
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 15rem;
+      width: 11rem;
       font-family: 'Oswald', sans-serif;
+    }
+    .testText{
+      width: 10rem;
+      font-size: 2vh;
+      top: 10rem; right: 0; bottom: 0; left: 3rem;
+      
+    }
+    .testBorder{
+      color: rgb(6, 189, 6);
+      border-bottom:3px solid orange;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2vh;
+      width: 8rem;
     }
 }
 /**********************************Commitment/Testimonials********************************* */
@@ -555,7 +650,7 @@ margin-bottom: 1rem;
 .commitOver{
   background: rgba(0,0,0,0);
   position: absolute;
-  top: 10rem; right: 0; bottom: 0; left: 0;
+  top: 5rem; right: 0; bottom: 0; left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -586,6 +681,20 @@ margin-bottom: 1rem;
   align-items: flex-start;
 
 }
+.commitButton{
+  width: 15rem; 
+  background-color:orange; 
+  border: none;
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 1rem;
+  box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
+}
+.commitButton:hover{
+  background-color:rgb(6, 189, 6);
+  color: black;
+  border: none;
+}
 @media(max-width:380px){
   .commitImg{
     opacity: 0.25;
@@ -601,27 +710,34 @@ margin-bottom: 1rem;
     justify-content:center;
   }
   .commitText{
-    
-    width: 12rem;
     color:black;
     font-family: 'Oswald', sans-serif;
     display: flex;
     align-items: flex-start;
-    font-size: .8vh;
+    font-size: .9vh;
     margin-top: .2rem;
+    width: 15rem;
   
   }
   .commitButton{
-    width: 10rem; 
+    width: 7rem; 
     background-color:orange; 
-    border:"none";
-    font-size: .5rem;
+    border: none;
+    font-size: .8rem;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1rem;
+  }
+  .alpaca{
+    width: 12rem;
+    margin-top: 6rem;
   }
 }
 
 
 /**********************************Footer********************************* */
-
+.footerImg{
+  width: 100%;
+}
 .site-footer
 {
   background-color:black;
@@ -629,6 +745,9 @@ margin-bottom: 1rem;
   font-size:15px;
   line-height:24px;
   color:#737373;
+}
+.logoText{
+  color: #818a91;
 }
 .site-footer hr
 {
@@ -692,9 +811,9 @@ margin-bottom: 1rem;
   border-radius:100%;
   background-color:#33353d
 }
-.copyright-text
-{
-  margin:0
+.copyright-text{
+  margin:0;
+  color: #818a91;
 }
 @media (max-width:991px)
 {
@@ -776,6 +895,139 @@ margin-bottom: 1rem;
 {
   background-color:#ea4c89
 }
+.socialBlog{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blogTtl{
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog{
+  color: rgb(6, 189, 6);
+  border-bottom:3px solid orange;
+  width: 35rem;
+  font-size: 6vh;
+  font-family: 'Oswald', sans-serif;
+}
+.blogContainer{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.blogImg{
+  width: 15rem;
+  margin-top: 2rem;
+}
+.blogCard {
+  /* Add shadows to create the "card" effect */
+  width: 20rem;
+  margin-top: 10rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+}
+.blogTitle{
+  color: rgb(6, 189, 6);
+  border-bottom:3px solid orange;
+}
+/* Add some padding inside the card container */
+.blogButton{
+  background-color: orange;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+
+}
+.blogButton:hover{
+  background-color: #80a18196;
+  color: black;
+  border: none;
+}
+.blogCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.faq{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.faqText{
+  color: #4CAF50;
+}
+.faqTtl{
+  color: #4CAF50;
+  border-bottom: 3px solid orange;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+}
+.footerLogo{
+  width: 20rem;
+}
+@media(max-width:380px){
+  .blogCard {
+    /* Add shadows to create the "card" effect */
+    width: 12rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  .blog{
+    color: rgb(6, 189, 6);
+    border-bottom:3px solid orange;
+    width: 20rem;
+    font-size: 5vh;
+    font-family: 'Oswald', sans-serif;
+  }
+  .blogImg{
+    width: 5rem;
+    margin-top: 2rem;
+  }
+  .blogTitle{
+    color: rgb(6, 189, 6);
+    border-bottom:3px solid orange;
+    font-size: .8rem;
+  }
+  .blogText{
+   font-size: .5rem;
+  }
+  .blogTtl{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .faqTtl{
+    color: #4CAF50;
+    border-bottom: 3px solid orange;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+  }
+  .faqText{
+    color: #4CAF50;
+    font-size: .8rem;
+  }
+  .footerLogo{
+    width: 8rem;
+  }
+} 
 @media (max-width:767px)
 {
   .social-icons li.title

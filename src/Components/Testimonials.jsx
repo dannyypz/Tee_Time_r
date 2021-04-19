@@ -11,16 +11,16 @@ const Testimonials = () => {
                 <div className="testContainer">
                     <Row>
                       
-                 <Col sm='6'>
+                 <Col sm='4' xs='6'>
                  <div>
-                     <img src={alpaca} alt=""/>
+                     <img className='alpaca' src={alpaca} alt=""/>
                  </div>
                  </Col>
-                 <Col sm='6'>
+                 <Col sm='3'xs='6'>
                     <div >
-                <h4 >Our services</h4>
-                <h6 >What our customers are saying!</h6>
-                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eaque. Ratione assumenda quam exercitationem impedit, sequi non ea hic optio eaque reprehenderit. Deserunt at repellat adipisci minima aut, officia fugiat.
+                <h4 className="testBorder" >Our Testimonials</h4>
+                <h6 className="testUnder" >What our customers are saying!</h6>
+                    <p className="testText" >
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsum iste accusamus placeat fuga magni quibusdam, omnis et libero fugit non dolores consectetur maxime eveniet qui eligendi. Delectus, nulla quaerat!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia temporibus amet debitis eligendi, inventore harum ad natus odit porro placeat aut cupiditate ratione eos nisi obcaecati incidunt facilis, veniam quis.
                     </p>
@@ -36,7 +36,7 @@ const Testimonials = () => {
                  
                  </div>
                  
-                <><Button style={{marginBottom:'3rem'}}variant="success">READ OUR REVIEWS</Button></>
+                <><Button style={{marginBottom:'3rem', boxShadow: '0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15)'}}variant="success">READ OUR REVIEWS</Button></>
                 </Col>
                  </Row>
 

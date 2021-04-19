@@ -1,6 +1,6 @@
 import React from 'react'
 import mower from '../Media/Images/daniel-watson-8vBpYpTGo90-unsplash.jpg'
-import {Card, Button} from "react-bootstrap"
+// import {Card, Button, Row, Col} from "react-bootstrap"
 import grass from '../Media/Images/kouji-tsuru-hkilGmT85ss-unsplash.jpg'
 import banner from '../Media/Images/banner.png'
 
@@ -12,102 +12,37 @@ const Services = () => {
             <div className="servicesOver">
                 <h4 className="servicesBorder">Our services</h4>
                 <p className="servicesText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium repudiandae totam quia, illo quidem perferendis commodi numquam ipsum reprehenderit dolore placeat natus eum obcaecati doloribus voluptatum est! Dolorum, neque dolor!</p>
-            </div> 
-           {/* <div className="serviceCards">
-            <Card style={{width:"15rem"}}>
-                <Card.Img variant="top" src={mower} />
-                <Card.Body style={{ display:'flex', flexDirection:"column", alignItems:'center', justifyContent: 'center' }}>
-                        <Card.Title style={{color:'#38b000'}}>Lawn Care</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button className="serviceButton">Schedule Service</Button>
-                </Card.Body>
-            </Card>
-            <br/>
-            <Card style={{ width: '15rem' }}>
-                <Card.Img variant="top" src={mower} />
-                <Card.Body style={{ display:'flex', flexDirection:"column", alignItems:'center', justifyContent: 'center' }}>
-                    <Card.Title style={{color:'#38b000'}}>Pest Control</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button className="serviceButton">Schedule Service</Button>
-                </Card.Body>
-            </Card>
-            <br/>
-            <Card style={{ width: '15rem' }}>
-                <Card.Img variant="top" src={mower} />
-                <Card.Body style={{ display:'flex', flexDirection:"column", alignItems:'center', justifyContent: 'center', }}>
-                    <Card.Title style={{color:'#38b000'}}>Tree & Shurb Services</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button className="serviceButton">Schedule Service</Button>
-                </Card.Body>
-            </Card>
-            </div>  */}
- 
-        </div>
-        // <div>
-
-        // </div>
-        // </>
+                <div className="cardContainer">
+                <div className="card">
+                    <img className="serviceImg" src={mower} alt="Avatar" />
+                    <div className="container">
+                    <h4 className="serviceTitle"><b>Lawn Care</b></h4>
+                    <p className="cardText">Lorem ipsum dolor</p>
+                <button className="serviceButton">Schedule Service</button>
+            </div>
+            </div>
+            <div className="card">
+                    <img className="serviceImg" src={mower} alt="Avatar" />
+                    <div className="container">
+                    <h4 className="serviceTitle"><b>Pest Control</b></h4>
+                <p className="cardText">Lorem ipsum dolor</p>
+                <button className="serviceButton">Schedule Service</button>
+            </div>
+            </div>
+            <div className="card">
+                    <img className="serviceImg" src={mower} alt="Avatar" />
+                    <div className="container">
+                    <h4 className="serviceTitle"><b>Tree & Shurb</b></h4>
+                    <p className="cardText">Lorem ipsum dolor</p>
+                <button className="serviceButton">Schedule Service</button>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+           
     )
         
-        /* /<div className="servicesContainer">
-            <img className="servicesImg" src={grass} alt=""/>
-            <div className="servicesOver">
-                <h4 className="servicesBorder">Our services</h4>
-                <p className="servicesText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium repudiandae totam quia, illo quidem perferendis commodi numquam ipsum reprehenderit dolore placeat natus eum obcaecati doloribus voluptatum est! Dolorum, neque dolor!</p>
-            </div> */
-            /* <div className="serviceCards">
-            <Card className="card">
-                <Card.Img variant="top" src={mower} />
-                <Card.Body style={{ display:'flex', flexDirection:"column", alignItems:'center', justifyContent: 'center' }}>
-                        <Card.Title style={{color:'#38b000'}}>Lawn Care</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button className="serviceButton">Schedule Service</Button>
-                </Card.Body>
-            </Card>
-            <br/>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={mower} />
-                <Card.Body style={{ display:'flex', flexDirection:"column", alignItems:'center', justifyContent: 'center' }}>
-                    <Card.Title style={{color:'#38b000'}}>Pest Control</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button className="serviceButton">Schedule Service</Button>
-                </Card.Body>
-            </Card>
-            <br/>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={mower} />
-                <Card.Body style={{ display:'flex', flexDirection:"column", alignItems:'center', justifyContent: 'center', }}>
-                    <Card.Title style={{color:'#38b000'}}>Tree & Shurb Services</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button className="serviceButton">Schedule Service</Button>
-                </Card.Body>
-            </Card>
-            </div> */
- 
-        // </div>
-        // <div>
-
-        // </div>
-        // </>
-    
-}
+    }
 
 export default Services

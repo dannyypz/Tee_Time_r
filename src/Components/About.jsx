@@ -6,7 +6,7 @@ import fertilizer from '../Media/Images/fertilizer.png'
 
 const About = () => {
     return ( 
-        <div>
+        <div className="aboutContainer">
     <div className="aboutSec">
             <div id="aboutImg" >
             <img src={lawnMan} alt="law"/>
